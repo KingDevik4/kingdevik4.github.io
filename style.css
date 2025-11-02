@@ -57,3 +57,99 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 16px;
+    color: #c0c0c0;
+    margin-bottom: 30px;
+}
+
+/* This container ONLY holds the grid */
+.container {
+    width: 100%;
+    max-width: 680px; 
+    margin: 0 auto; 
+    padding: 0 15px 40px 15px; 
+    box-sizing: border-box;
+}
+
+/* ============================ */
+/* "LIQUID GLASS" GRID */
+/* ============================ */
+.link-grid {
+    display: grid;
+    /* 2-column grid for mobile, as requested */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
+    width: 100%;
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    color: #ffffff; 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px; 
+    font-weight: 500;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.link-button:hover {
+    transform: scale(1.03);
+    background: rgba(255, 255, 255, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.link-button i {
+    font-size: 24px; 
+    margin-right: 10px;
+    width: 24px; 
+}
+
+/* ================================== */
+/* RESPONSIVE: TABLETS (768px and up) */
+/* ================================== */
+@media (min-width: 768px) {
+    .cover-photo {
+        height: 250px; /* Taller cover */
+    }
+
+    .profile-pic {
+        width: 150px; /* Bigger pic */
+        height: 150px;
+        margin-top: -75px;
+        border-width: 6px;
+    }
+}
+
+/* ============================================= */
+/* RESPONSIVE: LAPTOPS & DESKTOPS (992px and up) */
+/* ============================================= */
+@media (min-width: 992px) {
+    .cover-photo {
+        height: 300px; /* Even taller cover */
+    }
+    
+    /* Widen the content on big screens */
+    .profile-header,
+    .container {
+        max-width: 800px;
+    }
+
+    .profile-pic {
+        width: 160px; /* Slightly bigger pic */
+        height: 160px;
+        margin-top: -80px;
+    }
+}
