@@ -14,10 +14,14 @@ body {
     margin: 0;
     box-sizing: border-box;
     
-    /* NEW: Slower "breathing" animation (25 seconds) */
-    background: linear-gradient(270deg, #0d0d1a, #1a1a2e, #1f283e, #1a1a2e, #0d0d1a, #10001c, #1f0033, #2e004d, #1f0033, #10001c, #011a00, #012b00, #003e0e, #012b00, #011a00, #00151a, #002833, #003f50, #002833, #00151a, #1a0000, #330000, #4d1a00, #330000, #1a0000)
-    background-size: 400% 400%;
-    animation: move-bg 25s ease-in-out infinite;
+    /* NEW: This is the 13-color "dark rainbow" gradient.
+      It flows through all 6 palettes you liked.
+    */
+    background: linear-gradient(270deg, #0d0d1a, #1f283e, #10001c, #2e004d, #011a00, #003e0e, #00151a, #003f50, #1a0000, #4d1a00, #0a0a0a, #2b2b2b, #0d0d1a);
+    
+    /* NEW: We make the background size and animation time larger */
+    background-size: 1000% 1000%;
+    animation: move-bg 60s ease-in-out infinite; /* 60-second loop */
 }
 
 /* ============================ */
