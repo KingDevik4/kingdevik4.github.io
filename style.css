@@ -1,0 +1,56 @@
+/* This is the style for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* This is the main box holding your links */
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* This is the style for your profile picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* This is the style for your name */
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c1e21;
+    margin-bottom: 20px;
+}
+
+/* This is the style for each button */
+.link-button {
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ddd;
+    padding: 18px 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* This makes the button "pop" a little when you hover */
+.link-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
