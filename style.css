@@ -2,9 +2,9 @@
 /* ANIMATED DARK BACKGROUND */
 /* ============================ */
 @keyframes move-bg {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% { background-position: 0% 3%; }
+    50% { background-position: 33% 66%; }
+    100% { background-position: 66% 100%; }
 }
 
 body {
