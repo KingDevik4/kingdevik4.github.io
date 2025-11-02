@@ -15,7 +15,7 @@ body {
     box-sizing: border-box;
     
     /* NEW: Slower "breathing" animation (25 seconds) */
-    background: linear-gradient(270deg, #0d0d1a, #1a1a2e, #1f283e, #1a1a2e, #0d0d1a);
+    background: linear-gradient(270deg, #362222, #171010, #423F3E, #2B2B2B);
     background-size: 400% 400%;
     animation: move-bg 25s ease-in-out infinite;
 }
