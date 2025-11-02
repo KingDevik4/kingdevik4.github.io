@@ -17,7 +17,7 @@ body {
     /* This creates the dark, moving gradient */
     background: linear-gradient(270deg, #0d0d1a, #1a1a2e, #1f283e, #1a1a2e, #0d0d1a);
     background-size: 400% 400%;
-    animation: move-bg 15s ease infinite;
+    animation: move-bg 25s ease infinite;
 }
 
 /* ============================ */
