@@ -126,6 +126,9 @@ body {
     .cover-photo {
         height: 200px;
     }
+    .profile-header {
+        text-align: center;
+    }
 
     .profile-pic {
         width: 120px; 
